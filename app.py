@@ -22,7 +22,7 @@ st.divider()
 
 # ── Saisie utilisateur ─────────────────────────────────────
 texte = st.text_area(
-    'Entrez votre texte à analyser :',
+    'Entrez votre texte à analyser ci-après:',
     placeholder='Copiez ici n\'importe quel texte...',
     height=200
 )
