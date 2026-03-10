@@ -6,7 +6,7 @@ import re
 # ── Configuration ──────────────────────────────────────────
 # os.getenv() lit depuis .env en local, depuis les variables
 # d'environnement du serveur en production
-APP_TITLE = os.getenv('APP_TITLE', 'Analyseur de Texte IA')
+APP_TITLE = os.getenv('APP_TITLE', 'Analyseur de Texte IA: nombre et fréquence')
 APP_VERSION = os.getenv('APP_VERSION', '1.0.0')
 
 st.set_page_config(
